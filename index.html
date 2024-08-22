@@ -11,12 +11,25 @@
     <script src="js/function.js"></script>
     
     <!-- script per il dom -->
-    <script defer src="js/script.js"></script>
+    <script defer src="js/script copy.js"></script>
 </head>
 <body>
-    <form>
+    <!-- <form>
         <div>
           <input type="text" class="form-control" id="word" placeholder="Inserisci una parola">
+          <button type="button" id="send">Invia</button>
+          <button type="reset">Reset</button>
+        </div>
+        <div id="result"></div>
+    </form> -->
+
+    <form>
+        <div>
+            <select id="even-or-shots">
+                <option>pari</option>
+                <option>dispari</option>
+            </select>
+          <input type="number" id="number" min="1" max="5" style="width: 250px;" placeholder="Inserisci un numero da 1 a 5">
           <button type="button" id="send">Invia</button>
           <button type="reset">Reset</button>
         </div>
